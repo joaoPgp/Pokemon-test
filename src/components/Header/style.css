@@ -1,0 +1,25 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    background-color: white;
+    height: 100px;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.10);
+}
+
+.image {
+    height: 150px;
+    padding-left: 200px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.contact {
+    padding-right: 200px;
+}
