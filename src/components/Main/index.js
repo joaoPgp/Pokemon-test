@@ -1,5 +1,4 @@
-
-
+/*
 import './style.css'
 import pika from '../../assets/images/pikachu.png'
 import pokeBall from '../../assets/images/pokeball.png'
@@ -28,23 +27,34 @@ function Main() {
 }
 
 export default Main
+*/
 
-/*
-import './index.css'
+import './style.css'
+import mew from '../../assets/images/mew.png'
+import Card from '../Card'
 
 
 function Body() {
+
     return(
-        <body className='cointaner-body'>
-            <div className='titleTwo'>
+        <body>
+          <div className='cointaner-body'>
+            <div className='titleT'>
                 <h1>Mais de 250 Pokemons para você escolher o seu favorito</h1>
             </div>
             <input placeholder='Pesquise seu Pokemon' className='inp'></input>
-            
+            <button className='search'>Pesquisar Pokémon</button>
+          </div>
+            <div className='imagePoke'>
+                <Card img={mew}></Card>
+            </div>
         </body>
 
     )
 }
 
-export default Body
-*/
+export default Body 
+
+
+
+

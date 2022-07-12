@@ -1,12 +1,10 @@
-import './style,css'
-import Bulbasaur from '../../assets/images/bulbasaur.png'
-function Card() {
-    return(
-        <card>
-            <div>
-                <img className='img' src={Bulbasaur}/>
-            </div>
-        </card>
+import './style.css'
+
+function Card({ img }) {
+    return (
+        <div>
+            <img className='images' src={img}/>
+        </div>
     )
 }
 

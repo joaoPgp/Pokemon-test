@@ -18,6 +18,8 @@
     display: flex;
     align-items: center;
     gap: 200px;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .contact {
