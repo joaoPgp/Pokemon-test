@@ -1,5 +1,6 @@
 import './style.css'
-import mew from '../../assets/images/mew.png'
+import bulbasaur from '../../assets/images/bulbasaur.png'
+import charmander from '../../assets/images/charmander.png'
 import Card from '../Card'
 import Button from '../buttons'
 import { useState } from 'react'
@@ -23,7 +24,7 @@ function Body() {
             <Button type={'secundary'} onClick={() => search()}>Pesquisar pokemons</Button>
           </div>
             <div className='imagePoke'>
-                <Card img={mew}></Card>
+                <Card type={'name'} img={bulbasaur}></Card>
             </div>
         </body>
 

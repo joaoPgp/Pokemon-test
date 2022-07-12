@@ -1,6 +1,60 @@
 .images {
-    height: 120px;
-    width: 190px;
+    height: 75px;
+    width: 85px;
+}
+
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 130px;
+    width: 200px;
+    background-color: rgb(46, 206, 171);
+    border: 1px, solid, black;
     border-radius: 12px;
-    
+}
+
+.name {
+    color: white;
+    font-size: 19px;
+}
+
+.genre {
+    font-size: 12px;
+    border: 2px solid transparent;
+    background-color: rgb(43, 192, 160);
+    border-radius: 8px;
+    width: 70px;
+    color: antiquewhite;
+    margin-top: 1px;
+}
+
+.container-cardSecondary {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 130px;
+    width: 200px;
+    background-color: rgb(238, 69, 69);
+    border: 1px, solid, black;
+    border-radius: 12px;
+    margin-top: 2px;
+}
+
+.nameSecondary {
+    color: white;
+    font-size: 19px;
+}
+
+.genreSecondary {
+    font-size: 12px;
+    border: 2px solid transparent;
+    background-color: rgb(245, 119, 119);
+    border-radius: 8px;
+    width: 70px;
+    color: antiquewhite;
+    margin-top: 1px;
 }

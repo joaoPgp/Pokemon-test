@@ -18,13 +18,15 @@
 }
 
 .btn-secundary {
+    color: white;
     height: 45px;
     width: 250px;
     margin-top: 25px;
-    background-color: aquamarine;
+    background-color: rgb(66, 66, 66);;
     border-radius: 16px;
     border: 1px;
     box-shadow: 0px 8px 9px rgba(122, 13, 13, 0.1);
+
 }
 
 .btn-secundary:hover {
