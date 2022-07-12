@@ -1,17 +1,16 @@
-import { useState } from "react";
 import Header from "./components/Header";
 import Main from './components/Main'
-import Body from "./components/Main";
+import PokemonList from "./components/PokemonList";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-
-
-
   return (
     <div>
       <Header></Header>
-      <Main></Main>
-      
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="pokemons" element={<PokemonList />} />
+      </Routes>
     </div>
   );
 }

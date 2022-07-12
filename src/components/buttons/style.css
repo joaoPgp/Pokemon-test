@@ -1,4 +1,4 @@
-.btn{
+.btn-prymari{
     background-color: mediumturquoise;
     height: 70px;
     width: 260px;
@@ -9,10 +9,24 @@
     
     }
     
-.btn:hover {
+.btn-prymari:hover {
     cursor: pointer;
 }
 
-.btn:focus {
+.btn-prymari:focus {
     outline: 0;
+}
+
+.btn-secundary {
+    height: 45px;
+    width: 250px;
+    margin-top: 25px;
+    background-color: aquamarine;
+    border-radius: 16px;
+    border: 1px;
+    box-shadow: 0px 8px 9px rgba(122, 13, 13, 0.1);
+}
+
+.btn-secundary:hover {
+    cursor: pointer;
 }

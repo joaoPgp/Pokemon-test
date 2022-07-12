@@ -1,11 +1,12 @@
 import './style.css';
 
 
-function Button(propriedades) {
+function Button({type, children, onClick}) {
+   const className = 'btn btn-' + type;
    
 
    return (
-      <button className='btn'>{propriedades.children}</button>
+      <button className={className} onClick={onClick}>{children}</button>
    );
 }
 

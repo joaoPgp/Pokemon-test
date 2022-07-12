@@ -1,5 +1,5 @@
 
-/*.container-main {
+.container-main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -48,44 +48,4 @@
     height: 290px;
     padding-top: 110px;
 }
-*/
 
-
-.cointaner-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.titleT {
-    font-size: 30px;
-    color: rgb(66, 66, 66);
-}
-
-.inp {
-    height: 35px;
-    width: 1415px;
-    border-radius: 20px;
-    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.10);
-    border: 1px solid transparent;
-}
-
-.imagePoke {
-    display: flex;
-    margin-top: 130px;
-    padding-left: 133px;
-}
-
-.search {
-    height: 45px;
-    width: 250px;
-    margin-top: 25px;
-    background-color: aquamarine;
-    border-radius: 16px;
-    border: 1px;
-    box-shadow: 0px 8px 9px rgba(122, 13, 13, 0.1);
-}
-
-.search:hover {
-    cursor: pointer;
-} 

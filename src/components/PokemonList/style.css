@@ -1,0 +1,24 @@
+.cointaner-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleT {
+    font-size: 30px;
+    color: rgb(66, 66, 66);
+}
+
+.inp {
+    height: 35px;
+    width: 1415px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.10);
+    border: 1px solid transparent;
+}
+
+.imagePoke {
+    display: flex;
+    margin-top: 130px;
+    padding-left: 133px;
+}
