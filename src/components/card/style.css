@@ -1,6 +1,7 @@
 .images {
-    height: 75px;
-    width: 85px;
+    height: 65px;
+    width: 75px;
+   
 }
 
 
@@ -11,14 +12,15 @@
     align-items: center;
     height: 130px;
     width: 200px;
-    background-color: rgb(46, 206, 171);
+    background-color: rgb(66, 66, 66);
     border: 1px, solid, black;
     border-radius: 12px;
+    margin: 10px;
 }
 
 .name {
     color: white;
-    font-size: 19px;
+    font-size: 20px;
 }
 
 .genre {

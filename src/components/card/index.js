@@ -1,23 +1,23 @@
 import './style.css'
+import pokemonTypeColors from '../../helpers/pokemonTypeColors';
 
-function Card({ img }) {
+function Card({ pokemon }) {
+    console.log(pokemon)
     return (
         <div>
             <div className='container-card'>    
-                <h1 className='name'>Bulbasaur</h1>
-                <h2 className='genre'>Planta</h2>
-                <h2 className='genre'>Venenoso</h2>
-                <h1 className='name'>#001</h1>
-                <img className='images' src={img}/>
+                <h1 className='name'>{pokemon.name}</h1>
+                {
+                    pokemon.types.map(type => {
+                        return (
+                            <h2 className='genre' style={{ backgroundColor: pokemonTypeColors[type.type.name] }}>{type.type.name}</h2>
+                           
+                        )
+                    })
+                }
+                <h1 className='name'>###</h1>
+                <img className='images' src={pokemon.sprites.front_default} alt=""/>
             </div>
-
-            <div className='container-cardSecondary'>
-                <h1 className='nameSecondary'>Charmander</h1>
-                <h2 className='genreSecondary'>Fogo</h2>
-                <h2 className='genreSecondary'>Fogo</h2>
-                <h1 className='nameSecondary'>#002</h1>
-                <img className='images' src={img}/>
-            </div> 
         </div>
     )
 }
